@@ -18,5 +18,5 @@ if you want to perform something additional on resize, pass a function to second
 ```typescript
 import { resizer } from "./util/resize/resize";
 
-resizer.p5(p, _ => console.log('resized!'))
+resizer.p5(p, () => console.log('resized!'))
 ```
